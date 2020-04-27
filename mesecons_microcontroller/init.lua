@@ -58,7 +58,7 @@ if nodename ~= "mesecons_microcontroller:microcontroller0000" then
 end
 
 minetest.register_node(nodename, {
-	description = "Microcontroller",
+	description = S("Microcontroller"),
 	drawtype = "nodebox",
 	tiles = {
 		top,

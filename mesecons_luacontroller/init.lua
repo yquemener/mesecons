@@ -808,7 +808,7 @@ for d = 0, 1 do
 	}
 
 	minetest.register_node(node_name, {
-		description = "Luacontroller",
+		description = S("Luacontroller"),
 		drawtype = "nodebox",
 		tiles = {
 			top,

@@ -61,7 +61,7 @@ plg.register_nodes = function(template)
 end
 
 plg.register_nodes({
-	description = "FPGA",
+	description = S("FPGA"),
 	drawtype = "nodebox",
 	tiles = {
 		"", -- replaced later

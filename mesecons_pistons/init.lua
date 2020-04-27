@@ -276,7 +276,7 @@ local piston_on_box = {
 -- Normal (non-sticky) Pistons:
 -- offstate
 minetest.register_node("mesecons_pistons:piston_normal_off", {
-	description = "Piston",
+	description = S("Piston"),
 	tiles = {
 		"mesecons_piston_top.png",
 		"mesecons_piston_bottom.png",
@@ -301,7 +301,7 @@ minetest.register_node("mesecons_pistons:piston_normal_off", {
 
 -- onstate
 minetest.register_node("mesecons_pistons:piston_normal_on", {
-	description = "Activated Piston Base",
+	description = S("Activated Piston Base"),
 	drawtype = "nodebox",
 	tiles = {
 		"mesecons_piston_top.png",
@@ -330,7 +330,7 @@ minetest.register_node("mesecons_pistons:piston_normal_on", {
 
 -- pusher
 minetest.register_node("mesecons_pistons:piston_pusher_normal", {
-	description = "Piston Pusher",
+	description = S("Piston Pusher"),
 	drawtype = "nodebox",
 	tiles = {
 		"mesecons_piston_pusher_top.png",
@@ -355,7 +355,7 @@ minetest.register_node("mesecons_pistons:piston_pusher_normal", {
 -- Sticky ones
 -- offstate
 minetest.register_node("mesecons_pistons:piston_sticky_off", {
-	description = "Sticky Piston",
+	description = S("Sticky Piston"),
 	tiles = {
 		"mesecons_piston_top.png",
 		"mesecons_piston_bottom.png",
@@ -380,7 +380,7 @@ minetest.register_node("mesecons_pistons:piston_sticky_off", {
 
 -- onstate
 minetest.register_node("mesecons_pistons:piston_sticky_on", {
-	description = "Activated Sticky Piston Base",
+	description = S("Activated Sticky Piston Base"),
 	drawtype = "nodebox",
 	tiles = {
 		"mesecons_piston_top.png",
@@ -409,7 +409,7 @@ minetest.register_node("mesecons_pistons:piston_sticky_on", {
 
 -- pusher
 minetest.register_node("mesecons_pistons:piston_pusher_sticky", {
-	description = "Sticky Piston Pusher",
+	description = S("Sticky Piston Pusher"),
 	drawtype = "nodebox",
 	tiles = {
 		"mesecons_piston_pusher_top.png",

@@ -2,7 +2,7 @@ local S = minetest.get_translator("mesecons")
 
 minetest.register_chatcommand("say", {
 	params = "<text>",
-	description = "Say <text> as the server",
+	description = S("Say <text> as the server"),
 	privs = {server=true},
 	func = function(name, param)
 		minetest.chat_send_all(name .. ": " .. param)
@@ -11,7 +11,7 @@ minetest.register_chatcommand("say", {
 
 minetest.register_chatcommand("tell", {
 	params = "<name> <text>",
-	description = "Say <text> to <name> privately",
+	description = S("Say <text> to <name> privately"),
 	func = function(name, param)
 		local found, _, target, message = param:find("^([^%s]+)%s+(.*)$")
 		if found == nil then
@@ -27,7 +27,7 @@ minetest.register_chatcommand("tell", {
 
 minetest.register_chatcommand("hp", {
 	params = "<name> <value>",
-	description = "Set health of <name> to <value> hitpoints",
+	description = S("Set health of <name> to <value> hitpoints"),
 	privs = {ban=true},
 	func = function(name, param)
 		local found, _, target, value = param:find("^([^%s]+)%s+(%d+)$")
@@ -180,7 +180,7 @@ local function can_dig(pos, player)
 end
 
 minetest.register_node("mesecons_commandblock:commandblock_off", {
-	description = "Command Block",
+	description = S("Command Block"),
 	tiles = {"jeija_commandblock_off.png"},
 	inventory_image = minetest.inventorycube("jeija_commandblock_off.png"),
 	is_ground_content = false,
