@@ -62,7 +62,7 @@ function mesecon.register_pressure_plate(basename, description, textures_off, te
 		wield_image = image_w,
 		paramtype = "light",
 		is_ground_content = false,
-		description = description,
+		description = S(description),
 		pressureplate_basename = basename,
 		on_timer = pp_on_timer,
 		on_construct = function(pos)

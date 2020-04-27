@@ -24,7 +24,7 @@ function mesecon.lightstone_add(name, base_item, texture_off, texture_on, desc)
 		tiles = {texture_off},
 		is_ground_content = false,
 		groups = {cracky = 2, mesecon_effector_off = 1, mesecon = 2},
-		description = desc,
+		description = S(desc),
 		sounds = default.node_sound_stone_defaults(),
 		mesecons = {effector = {
 			rules = lightstone_rules,
