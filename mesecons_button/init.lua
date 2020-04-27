@@ -2,6 +2,8 @@
 -- A button that when pressed emits power for 1 second
 -- and then turns off again
 
+local S = minetest.get_translator("mesecons")
+
 mesecon.button_turnoff = function (pos)
 	local node = minetest.get_node(pos)
 	if node.name ~= "mesecons_button:button_on" then -- has been dug

@@ -1,3 +1,5 @@
+local S = minetest.get_translator("mesecons")
+
 local pp_box_off = {
 	type = "fixed",
 	fixed = { -7/16, -8/16, -7/16, 7/16, -7/16, 7/16 },

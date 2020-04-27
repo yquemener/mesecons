@@ -1,3 +1,5 @@
+local S = minetest.get_translator("mesecons")
+
 local EEPROM_SIZE = 255
 
 local microc_rules = {}

@@ -1,3 +1,5 @@
+local S = minetest.get_translator("mesecons")
+
 local screwdriver_exists = minetest.global_exists("screwdriver")
 
 local function insulated_wire_get_rules(node)

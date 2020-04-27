@@ -28,6 +28,7 @@
 -- (see where local env is defined)
 -- Something nice to play is is appending minetest.env to it.
 
+local S = minetest.get_translator("mesecons")
 local BASENAME = "mesecons_luacontroller:luacontroller"
 
 local rules = {

@@ -8,6 +8,7 @@
 -- ## Update wire looks ##
 -- #######################
 
+local S = minetest.get_translator("mesecons")
 -- self_pos = pos of any mesecon node, from_pos = pos of conductor to getconnect for
 local wire_getconnect = function (from_pos, self_pos)
 	local node = minetest.get_node(self_pos)

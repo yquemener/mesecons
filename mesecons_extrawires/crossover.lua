@@ -1,3 +1,5 @@
+local S = minetest.get_translator("mesecons")
+
 local function crossover_get_rules(node)
 	return {
 		{--first wire

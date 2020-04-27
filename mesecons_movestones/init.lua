@@ -9,6 +9,7 @@
 -- Pull all blocks in its back
 
 -- settings:
+local S = minetest.get_translator("mesecons")
 local timer_interval = 1 / mesecon.setting("movestone_speed", 3)
 local max_push = mesecon.setting("movestone_max_push", 50)
 local max_pull = mesecon.setting("movestone_max_pull", 50)

@@ -1,3 +1,5 @@
+local S = minetest.get_translator("mesecons")
+
 -- Function that get the input/output rules of the delayer
 local delayer_get_output_rules = function(node)
 	local rules = {{x = 0, y = 0, z = 1}}

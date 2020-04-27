@@ -1,3 +1,5 @@
+local S = minetest.get_translator("mesecons")
+
 minetest.register_chatcommand("say", {
 	params = "<text>",
 	description = "Say <text> as the server",

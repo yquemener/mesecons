@@ -1,3 +1,5 @@
+local S = minetest.get_translator("mesecons")
+
 local lightstone_rules = {
 	{x=0,  y=0,  z=-1},
 	{x=1,  y=0,  z=0},

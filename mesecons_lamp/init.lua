@@ -1,3 +1,5 @@
+local S = minetest.get_translator("mesecons")
+
 -- MESELAMPS
 -- A lamp is "is an electrical device used to create artificial light" (wikipedia)
 -- guess what?

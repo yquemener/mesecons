@@ -1,3 +1,5 @@
+local S = minetest.get_translator("mesecons")
+
 local nodebox = {
 	type = "fixed",
 	fixed = {{-8/16, -8/16, -8/16, 8/16, -7/16, 8/16 }},

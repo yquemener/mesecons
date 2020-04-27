@@ -1,3 +1,5 @@
+local S = minetest.get_translator("mesecons")
+
 minetest.register_node("mesecons_noteblock:noteblock", {
 	description = "Noteblock",
 	tiles = {"mesecons_noteblock.png"},

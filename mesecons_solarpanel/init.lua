@@ -1,3 +1,5 @@
+local S = minetest.get_translator("mesecons")
+
 -- Solar Panel
 minetest.register_node("mesecons_solarpanel:solar_panel_on", {
 	drawtype = "nodebox",

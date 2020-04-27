@@ -1,6 +1,8 @@
 -- Sticky blocks can be used together with pistons or movestones to push / pull
 -- structures that are "glued" together using sticky blocks
 
+local S = minetest.get_translator("mesecons")
+
 -- All sides sticky block
 minetest.register_node("mesecons_stickyblocks:sticky_block_all", {
 	-- TODO: Rename to “All-Faces Sticky Block” when other sticky blocks become available

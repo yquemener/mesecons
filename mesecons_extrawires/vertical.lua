@@ -1,3 +1,5 @@
+local S = minetest.get_translator("mesecons")
+
 local vertical_box = {
 	type = "fixed",
 	fixed = {-1/16, -8/16, -1/16, 1/16, 8/16, 1/16}

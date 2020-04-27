@@ -1,3 +1,5 @@
+local S = minetest.get_translator("mesecons")
+
 local plg = {}
 plg.rules = {}
 -- per-player formspec positions

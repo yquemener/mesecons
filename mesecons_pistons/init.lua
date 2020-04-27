@@ -1,3 +1,5 @@
+local S = minetest.get_translator("mesecons")
+
 local specs = {
 	normal = {
 		offname = "mesecons_pistons:piston_normal_off",
